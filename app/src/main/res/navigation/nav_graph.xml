@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.seguras.laboratorio3.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_restaurantesFragment"
+            app:destination="@id/restaurantesFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.seguras.laboratorio3.ui.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registroFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantesFragment"
+        android:name="com.seguras.laboratorio3.ui.RestaurantesFragment"
+        android:label="fragment_restaurantes"
+        tools:layout="@layout/fragment_restaurantes" >
+        <action
+            android:id="@+id/action_restaurantesFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+        <action
+            android:id="@+id/action_restaurantesFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.seguras.laboratorio3.ui.DetalleFragment"
+        android:label="fragment_detalle"
+        tools:layout="@layout/fragment_detalle" >
+        <action
+            android:id="@+id/action_detalleFragment_to_restaurantesFragment"
+            app:destination="@id/restaurantesFragment" />
+        <argument
+            android:name="rest"
+            app:argType="com.seguras.laboratorio3.model.Restaurante" />
+    </fragment>
+</navigation>

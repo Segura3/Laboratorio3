@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588596671887",
+    "project_id": "laboratorio3-930d3",
+    "storage_bucket": "laboratorio3-930d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588596671887:android:6c4e0bdeed6dca364c07fa",
+        "android_client_info": {
+          "package_name": "com.seguras.laboratorio3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588596671887-clg77so7om603o6emqd1m6lmq42pc7ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4L24V_y-58mBOjVJQ3Ne2odl1N5o0YT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588596671887-clg77so7om603o6emqd1m6lmq42pc7ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

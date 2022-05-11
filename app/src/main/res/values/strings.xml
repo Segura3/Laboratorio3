@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Laboratorio3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valreq">Valor requerido</string>
+    <string name="correo_valido">Ingresa correo valido</string>
+</resources>
